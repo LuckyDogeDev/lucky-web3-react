@@ -1,11 +1,11 @@
-# `web3-react` Documentation - Squarelink
+# `sushi-web3-react` Documentation - Squarelink
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/squarelink-connector`
+`yarn add @sushi-web3-react/squarelink-connector`
 
 ## Arguments
 ```typescript
@@ -16,7 +16,7 @@ options?: any
 
 ## Example
 ```javascript
-import { SquarelinkConnector } from '@web3-react/squarelink-connector'
+import { SquarelinkConnector } from '@sushi-web3-react/squarelink-connector'
 
 const squarelink = new SquarelinkConnector({
   clientId: '...',

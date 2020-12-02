@@ -1,9 +1,9 @@
 {
-  "name": "@web3-react/squarelink-connector",
+  "name": "@sushi-web3-react/squarelink-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "6.1.6",
+  "version": "1.0.0",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
   "keywords": [
     "react",
@@ -18,10 +18,10 @@
     "dapp",
     "squarelink"
   ],
-  "author": "Noah Zinsmeister <noahwz@gmail.com>",
+  "author": "Jiro Ono",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NoahZinsmeister/web3-react.git"
+    "url": "git://github.com/sushiswap/sushi-web3-react"
   },
   "main": "dist/index.js",
   "module": "dist/squarelink-connector.esm.js",
@@ -35,8 +35,8 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@web3-react/abstract-connector": "^6.0.7",
-    "@web3-react/types": "^6.0.7",
+    "@sushi-web3-react/abstract-connector": "^1.0.0",
+    "@sushi-web3-react/types": "^1.0.0",
     "squarelink": "^1.1.4",
     "tiny-invariant": "^1.0.6"
   },

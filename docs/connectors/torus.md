@@ -1,11 +1,11 @@
-# `web3-react` Documentation - Torus
+# `sushi-web3-react` Documentation - Torus
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/torus-connector`
+`yarn add @sushi-web3-react/torus-connector`
 
 ## Arguments
 ```typescript
@@ -16,7 +16,7 @@ constructorOptions?: any
 
 ## Example
 ```javascript
-import { TorusConnector } from '@web3-react/torus-connector'
+import { TorusConnector } from '@sushi-web3-react/torus-connector'
 
 const torus = new TorusConnector({ chainId: 1 })
 ```

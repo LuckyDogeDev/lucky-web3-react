@@ -1,16 +1,16 @@
-import { InjectedConnector } from '@web3-react/injected-connector'
-import { NetworkConnector } from '@web3-react/network-connector'
-import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
-import { WalletLinkConnector } from '@web3-react/walletlink-connector'
-import { LedgerConnector } from '@web3-react/ledger-connector'
-import { TrezorConnector } from '@web3-react/trezor-connector'
-import { FrameConnector } from '@web3-react/frame-connector'
-import { AuthereumConnector } from '@web3-react/authereum-connector'
-import { FortmaticConnector } from '@web3-react/fortmatic-connector'
-import { MagicConnector } from '@web3-react/magic-connector'
-import { PortisConnector } from '@web3-react/portis-connector'
-import { SquarelinkConnector } from '@web3-react/squarelink-connector'
-import { TorusConnector } from '@web3-react/torus-connector'
+import { InjectedConnector } from '@sushi-web3-react/injected-connector'
+import { NetworkConnector } from '@sushi-web3-react/network-connector'
+import { WalletConnectConnector } from '@sushi-web3-react/walletconnect-connector'
+import { WalletLinkConnector } from '@sushi-web3-react/walletlink-connector'
+import { LedgerConnector } from '@sushi-web3-react/ledger-connector'
+import { TrezorConnector } from '@sushi-web3-react/trezor-connector'
+import { FrameConnector } from '@sushi-web3-react/frame-connector'
+import { AuthereumConnector } from '@sushi-web3-react/authereum-connector'
+import { FortmaticConnector } from '@sushi-web3-react/fortmatic-connector'
+import { MagicConnector } from '@sushi-web3-react/magic-connector'
+import { PortisConnector } from '@sushi-web3-react/portis-connector'
+import { SquarelinkConnector } from '@sushi-web3-react/squarelink-connector'
+import { TorusConnector } from '@sushi-web3-react/torus-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
@@ -34,7 +34,7 @@ export const walletconnect = new WalletConnectConnector({
 
 export const walletlink = new WalletLinkConnector({
   url: RPC_URLS[1],
-  appName: 'web3-react example'
+  appName: 'sushi-web3-react example'
 })
 
 export const ledger = new LedgerConnector({ chainId: 1, url: RPC_URLS[1], pollingInterval: POLLING_INTERVAL })

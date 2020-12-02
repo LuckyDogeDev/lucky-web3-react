@@ -1,5 +1,5 @@
-import { AbstractConnectorArguments, ConnectorUpdate } from '@web3-react/types'
-import { AbstractConnector } from '@web3-react/abstract-connector'
+import { AbstractConnectorArguments, ConnectorUpdate } from '@sushi-web3-react/types'
+import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
 import ethProvider from 'eth-provider'
 import invariant from 'tiny-invariant'
 

@@ -1,11 +1,11 @@
-# `web3-react` Documentation - Trezor
+# `sushi-web3-react` Documentation - Trezor
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/trezor-connector`
+`yarn add @sushi-web3-react/trezor-connector`
 
 ## Arguments
 ```typescript
@@ -20,7 +20,7 @@ manifestAppUrl: string
 
 ## Example
 ```javascript
-import { TrezorConnector } from '@web3-react/trezor-connector'
+import { TrezorConnector } from '@sushi-web3-react/trezor-connector'
 
 const trezor = new TrezorConnector({ chainId: 1, url: '...', manifestEmail: '...', manifestAppUrl: '...' })
 ```

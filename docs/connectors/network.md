@@ -1,11 +1,11 @@
-# `web3-react` Documentation - Network
+# `sushi-web3-react` Documentation - Network
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/network-connector`
+`yarn add @sushi-web3-react/network-connector`
 
 ## Arguments
 ```typescript
@@ -17,7 +17,7 @@ requestTimeoutMs?: number
 
 ## Example
 ```javascript
-import { NetworkConnector } from '@web3-react/network-connector'
+import { NetworkConnector } from '@sushi-web3-react/network-connector'
 
 const network = new NetworkConnector({ urls: { 1: RPC_URLS[1] } })
 ```
