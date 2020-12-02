@@ -1,6 +1,9 @@
 {
   "name": "sushi-web3-react",
-  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.2",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
   "keywords": [
     "react",
@@ -31,7 +34,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "publish:lerna": "lerna publish",
+    "publish:lerna": "lerna publish --no-git-tag-version --no-push",
     "clean": "lerna clean --yes && lerna exec -- rimraf yarn.lock dist/ .rts2_cache_{cjs,esm}/",
     "build": "lerna run build",
     "start": "lerna run --parallel --no-bail start -- --noClean",
