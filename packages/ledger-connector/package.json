@@ -39,5 +39,6 @@
     "@sushi-web3-react/abstract-connector": "^1.0.1",
     "@sushi-web3-react/types": "^1.0.1"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
 }

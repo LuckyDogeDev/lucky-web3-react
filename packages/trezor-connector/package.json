@@ -40,5 +40,6 @@
     "@sushi-web3-react/types": "^1.0.1",
     "trezor-connect": "^7.0.5"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
 }

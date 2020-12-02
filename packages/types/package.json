@@ -33,5 +33,6 @@
     "build": "tsdx build",
     "lint": "tsdx lint src"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
 }
