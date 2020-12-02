@@ -35,9 +35,9 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@walletconnect/web3-provider": "^1.2.0-alpha.0",
     "@sushi-web3-react/abstract-connector": "^1.0.0",
     "@sushi-web3-react/types": "^1.0.0",
+    "@walletconnect/web3-provider": "^1.2.0-alpha.0",
     "tiny-invariant": "^1.0.6"
   },
   "license": "GPL-3.0-or-later"

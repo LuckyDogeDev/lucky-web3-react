@@ -35,9 +35,9 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@toruslabs/torus-embed": "^1.8.0",
     "@sushi-web3-react/abstract-connector": "^1.0.0",
-    "@sushi-web3-react/types": "^1.0.0"
+    "@sushi-web3-react/types": "^1.0.0",
+    "@toruslabs/torus-embed": "^1.8.0"
   },
   "license": "GPL-3.0-or-later"
 }
