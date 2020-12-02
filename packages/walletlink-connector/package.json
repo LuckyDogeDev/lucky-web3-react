@@ -21,7 +21,7 @@
   "author": "Noah Zinsmeister <noahwz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NoahZinsmeister/sushi-web3-react.git"
+    "url": "git://github.com/sushiswap/sushi-web3-react.git"
   },
   "main": "dist/index.js",
   "module": "dist/walletlink-connector.esm.js",
