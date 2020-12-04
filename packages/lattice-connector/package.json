@@ -1,9 +1,9 @@
 {
-  "name": "@sushi-web3-react/ledger-connector",
+  "name": "@sushi-web3-react/lattice-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
   "keywords": [
     "react",
@@ -16,15 +16,15 @@
     "context",
     "frontend",
     "dapp",
-    "ledger"
+    "lattice"
   ],
-  "author": "Noah Zinsmeister <noahwz@gmail.com>",
+  "author": "Jiro Ono",
   "repository": {
     "type": "git",
     "url": "git://github.com/sushiswap/sushi-web3-react.git"
   },
   "main": "dist/index.js",
-  "module": "dist/ledger-connector.esm.js",
+  "module": "dist/lattice-connector.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -35,10 +35,10 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@0x/subproviders": "^5.0.4",
+    "@0x/subproviders": "^6.2.0",
+    "eth-lattice-keyring": "^0.2.7",
     "@sushi-web3-react/abstract-connector": "^1.0.1",
     "@sushi-web3-react/types": "^1.0.1"
   },
-  "license": "GPL-3.0-or-later",
-  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
+  "license": "GPL-3.0-or-later"
 }

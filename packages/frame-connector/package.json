@@ -40,5 +40,6 @@
     "eth-provider": "^0.2.5",
     "tiny-invariant": "^1.0.6"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
 }
