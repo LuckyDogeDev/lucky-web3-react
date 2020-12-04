@@ -13,6 +13,7 @@
     "@sushi-web3-react/fortmatic-connector": "latest",
     "@sushi-web3-react/frame-connector": "latest",
     "@sushi-web3-react/injected-connector": "latest",
+    "@sushi-web3-react/lattice-connector": "latest",
     "@sushi-web3-react/ledger-connector": "latest",
     "@sushi-web3-react/network-connector": "latest",
     "@sushi-web3-react/portis-connector": "latest",

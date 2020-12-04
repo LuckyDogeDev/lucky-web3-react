@@ -11,6 +11,7 @@ import { MagicConnector } from '@sushi-web3-react/magic-connector'
 import { PortisConnector } from '@sushi-web3-react/portis-connector'
 import { SquarelinkConnector } from '@sushi-web3-react/squarelink-connector'
 import { TorusConnector } from '@sushi-web3-react/torus-connector'
+import { LatticeConnector } from '@sushi-web3-react/lattice-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
@@ -45,6 +46,12 @@ export const trezor = new TrezorConnector({
   pollingInterval: POLLING_INTERVAL,
   manifestEmail: 'dummy@abc.xyz',
   manifestAppUrl: 'http://localhost:1234'
+})
+
+export const lattice = new LatticeConnector({
+  chainId: 4,
+  appName: 'web3-react',
+  url: RPC_URLS[4],
 })
 
 export const frame = new FrameConnector({ supportedChainIds: [1] })

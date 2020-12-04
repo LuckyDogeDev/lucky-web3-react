@@ -38,7 +38,7 @@ export class LatticeConnector extends AbstractConnector {
       const opts = {
         appName: this.appName,
         latticeConnectClient: LatticeKeyring,
-        networkId: this.chainId
+        networkId: this.chainId,
       }
       engine.addProvider(new LatticeSubprovider(opts))
       engine.addProvider(new CacheSubprovider())
